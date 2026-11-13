@@ -1,0 +1,37 @@
+{
+  "checkpoint_type": "validation-trained scorer weights",
+  "dataset_sha256": "2f39ce698e5bff6683c74bec30c436cc022c160b0f3d73c5268b55491b2445f9",
+  "features": [
+    "User preference",
+    "Proximity",
+    "Popularity",
+    "Temporal compatibility",
+    "Transition compatibility"
+  ],
+  "weights": [
+    0.3062301385743233,
+    0.2233927855515908,
+    0.4085081815201605,
+    0.022742130750884118,
+    0.039126763603041244
+  ],
+  "training_protocol": {
+    "success": true,
+    "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+    "iterations": 4,
+    "objective": 0.6574242235767734,
+    "alpha_l2": 0.1,
+    "validation_events_sampled": 5000,
+    "pairwise_training_comparisons": 100000
+  },
+  "source_environment": {
+    "python": "3.13.15",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0",
+    "interpreter_build": "MSC v.1944 64 bit (AMD64)",
+    "platform_family": "Windows x64"
+  },
+  "note": "These coefficients were fitted on the 5,000-event validation sample using the procedure documented in REPRODUCTION.md. The default runner loads this checkpoint so the paper reference run does not depend on small platform-specific optimizer differences. Use --refit-weights to rerun the optimizer and inspect the newly fitted coefficients; refitting can cause small numerical differences across platforms."
+}

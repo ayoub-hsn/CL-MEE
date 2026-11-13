@@ -1,0 +1,119 @@
+{
+  "design": "one-factor-at-a-time; all other simulation parameters held at the central setting",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "sessions_per_seed": 2400,
+  "total_sessions_per_setting": 24000,
+  "central_rho": 0.8,
+  "central_penalty_scale": 1.0,
+  "central_budget_policy": [
+    3,
+    2,
+    1
+  ],
+  "central_envelope_scale": 1.0,
+  "central_score_noise_sigma": 0.015,
+  "lambda_by_context": [
+    0.0,
+    0.035,
+    0.075
+  ],
+  "epsilon_by_context": [
+    0.0,
+    0.05,
+    0.1
+  ],
+  "eta": 0.008,
+  "tested_values": {
+    "evidence_coverage_rho": [
+      0.7,
+      0.8,
+      0.9
+    ],
+    "penalty_scale": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "budget_policy": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        1
+      ],
+      [
+        3,
+        3,
+        3
+      ]
+    ],
+    "utility_envelope_scale": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "score_noise_sigma": [
+      0.01,
+      0.015,
+      0.03
+    ]
+  },
+  "aggregation": "NDCG retention is 100 times the mean CL-MEE NDCG@5 across seeds divided by the mean RankOnly NDCG@5 across the same seeds, matching the manuscript table; per-seed ratios are retained in the raw CSV. Other reported metrics are means and sample SD across the ten fixed seeds.",
+  "ranges_across_setting_means": {
+    "evidence_coverage_rho": {
+      "NDCG_retained_pct_min": 99.54129158361502,
+      "NDCG_retained_pct_max": 99.82295852116269,
+      "F_model_min": 0.952989329180739,
+      "F_model_max": 0.9825701659561954,
+      "displayed_units_min": 1.1213333333333333,
+      "displayed_units_max": 1.2390416666666666
+    },
+    "penalty_scale": {
+      "NDCG_retained_pct_min": 99.62014847739925,
+      "NDCG_retained_pct_max": 99.92321538297915,
+      "F_model_min": 0.965583895830512,
+      "F_model_max": 0.9745922866612021,
+      "displayed_units_min": 1.1818333333333333,
+      "displayed_units_max": 1.1822916666666667
+    },
+    "budget_policy": {
+      "NDCG_retained_pct_min": 99.58748182856722,
+      "NDCG_retained_pct_max": 100.0234722447956,
+      "F_model_min": 0.9198875140802606,
+      "F_model_max": 0.9752034531762737,
+      "displayed_units_min": 0.9954166666666667,
+      "displayed_units_max": 1.2390416666666666
+    },
+    "utility_envelope_scale": {
+      "NDCG_retained_pct_min": 99.67796159670992,
+      "NDCG_retained_pct_max": 99.88976090329477,
+      "F_model_min": 0.9675348023857413,
+      "F_model_max": 0.9720761796538246,
+      "displayed_units_min": 1.182125,
+      "displayed_units_max": 1.1822500000000002
+    },
+    "score_noise_sigma": {
+      "NDCG_retained_pct_min": 99.66029871254781,
+      "NDCG_retained_pct_max": 99.6971794110367,
+      "F_model_min": 0.9618290187393365,
+      "F_model_max": 0.974900609337501,
+      "displayed_units_min": 1.1791666666666667,
+      "displayed_units_max": 1.1822500000000002
+    }
+  }
+}

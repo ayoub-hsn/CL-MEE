@@ -1,0 +1,9 @@
+CL-MEE reproduction verification report
+=======================================
+Dataset SHA-256: 2f39ce698e5bff6683c74bec30c436cc022c160b0f3d73c5268b55491b2445f9
+P1 NDCG@5: 0.156523890038 (99.98377626% retained)
+P2 NDCG@5: 0.156731788434 (100.11657686% retained)
+Simulation NDCG retention: 99.67796160% over 24,000 sessions
+P1/P2 all-event and promoted-event operational distributions: present
+All JSON/CSV, dataset, checkpoint, invariant, and requested manuscript checks passed.
+PDF page count: 9 pages (limit 9)

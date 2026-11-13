@@ -1,0 +1,272 @@
+{
+  "simulation_table2": [
+    {
+      "Method": "RankOnly",
+      "Hit@5 mean": 0.199125,
+      "Hit@5 SD": 0.008727815793113334,
+      "NDCG@5 mean": 0.13103072717785835,
+      "NDCG@5 SD": 0.006611415936716327,
+      "MRR mean": 0.13892716215736406,
+      "MRR SD": 0.006030837180934371,
+      "Units": null,
+      "Viol.": null,
+      "F_model": null
+    },
+    {
+      "Method": "Fixed-3",
+      "Hit@5 mean": 0.199125,
+      "Hit@5 SD": 0.008727815793113334,
+      "NDCG@5 mean": 0.13103072717785835,
+      "NDCG@5 SD": 0.006611415936716327,
+      "MRR mean": 0.13892716215736406,
+      "MRR SD": 0.006030837180934371,
+      "Units": 3.0,
+      "Viol.": 0.6519999999999999,
+      "F_model": 0.9884166666666665
+    },
+    {
+      "Method": "Minimal-posthoc",
+      "Hit@5 mean": 0.199125,
+      "Hit@5 SD": 0.008727815793113334,
+      "NDCG@5 mean": 0.13103072717785835,
+      "NDCG@5 SD": 0.006611415936716327,
+      "MRR mean": 0.13892716215736406,
+      "MRR SD": 0.006030837180934371,
+      "Units": 1.24075,
+      "Viol.": 0.06404166666666666,
+      "F_model": 0.9732085041254759
+    },
+    {
+      "Method": "CL-MEE",
+      "Hit@5 mean": 0.199125,
+      "Hit@5 SD": 0.008727815793113334,
+      "NDCG@5 mean": 0.1306087614339361,
+      "NDCG@5 SD": 0.006574664175146141,
+      "MRR mean": 0.13835771771291966,
+      "MRR SD": 0.006061841756654708,
+      "Units": 1.1822500000000002,
+      "Viol.": 0.0,
+      "F_model": 0.9719347501123687
+    }
+  ],
+  "sensitivity_detailed": [
+    {
+      "Factor": "Evidence coverage rho",
+      "Value": 0.7,
+      "NDCG retained (%)": 99.82296120970592,
+      "F_model": 0.952989329180739,
+      "Units": 1.1213333333333333,
+      "Re-rank rate": 0.037333333333333336
+    },
+    {
+      "Factor": "Evidence coverage rho",
+      "Value": 0.8,
+      "NDCG retained (%)": 99.67796428134793,
+      "F_model": 0.9719347501123687,
+      "Units": 1.1822500000000002,
+      "Re-rank rate": 0.051416666666666666
+    },
+    {
+      "Factor": "Evidence coverage rho",
+      "Value": 0.9,
+      "NDCG retained (%)": 99.54129426457207,
+      "F_model": 0.9825701659561954,
+      "Units": 1.2390416666666666,
+      "Re-rank rate": 0.06375
+    },
+    {
+      "Factor": "Penalty scale",
+      "Value": 0.5,
+      "NDCG retained (%)": 99.9232180742226,
+      "F_model": 0.965583895830512,
+      "Units": 1.1818333333333333,
+      "Re-rank rate": 0.034333333333333334
+    },
+    {
+      "Factor": "Penalty scale",
+      "Value": 1.0,
+      "NDCG retained (%)": 99.67796428134793,
+      "F_model": 0.9719347501123687,
+      "Units": 1.1822500000000002,
+      "Re-rank rate": 0.051416666666666666
+    },
+    {
+      "Factor": "Penalty scale",
+      "Value": 1.5,
+      "NDCG retained (%)": 99.62015116048018,
+      "F_model": 0.9745922866612021,
+      "Units": 1.1822916666666667,
+      "Re-rank rate": 0.05854166666666667
+    },
+    {
+      "Factor": "Budget policy",
+      "Value": "(1, 1, 1)",
+      "NDCG retained (%)": 99.58748451076832,
+      "F_model": 0.9198875140802606,
+      "Units": 0.9954166666666667,
+      "Re-rank rate": 0.08691666666666667
+    },
+    {
+      "Factor": "Budget policy",
+      "Value": "(3, 2, 1)",
+      "NDCG retained (%)": 99.67796428134793,
+      "F_model": 0.9719347501123687,
+      "Units": 1.1822500000000002,
+      "Re-rank rate": 0.051416666666666666
+    },
+    {
+      "Factor": "Budget policy",
+      "Value": "(3, 3, 3)",
+      "NDCG retained (%)": 100.0234749387393,
+      "F_model": 0.9752034531762737,
+      "Units": 1.2390416666666666,
+      "Re-rank rate": 0.0069166666666666664
+    },
+    {
+      "Factor": "Utility envelope scale",
+      "Value": 0.5,
+      "NDCG retained (%)": 99.88976359363718,
+      "F_model": 0.9675348023857413,
+      "Units": 1.182125,
+      "Re-rank rate": 0.03983333333333334
+    },
+    {
+      "Factor": "Utility envelope scale",
+      "Value": 1.0,
+      "NDCG retained (%)": 99.67796428134793,
+      "F_model": 0.9719347501123687,
+      "Units": 1.1822500000000002,
+      "Re-rank rate": 0.051416666666666666
+    },
+    {
+      "Factor": "Utility envelope scale",
+      "Value": 1.5,
+      "NDCG retained (%)": 99.67796428134793,
+      "F_model": 0.9720761796538246,
+      "Units": 1.1822500000000002,
+      "Re-rank rate": 0.05166666666666667
+    },
+    {
+      "Factor": "Score noise sigma",
+      "Value": 0.01,
+      "NDCG retained (%)": 99.66029929000244,
+      "F_model": 0.974900609337501,
+      "Units": 1.1807083333333335,
+      "Re-rank rate": 0.04883333333333333
+    },
+    {
+      "Factor": "Score noise sigma",
+      "Value": 0.015,
+      "NDCG retained (%)": 99.67796428134793,
+      "F_model": 0.9719347501123687,
+      "Units": 1.1822500000000002,
+      "Re-rank rate": 0.051416666666666666
+    },
+    {
+      "Factor": "Score noise sigma",
+      "Value": 0.03,
+      "NDCG retained (%)": 99.69718095902967,
+      "F_model": 0.9618290187393365,
+      "Units": 1.1791666666666667,
+      "Re-rank rate": 0.06849999999999999
+    }
+  ],
+  "simulation_summary": {
+    "Baseline NDCG@5": 0.13103072717785835,
+    "CL-MEE NDCG@5": 0.1306087614339361,
+    "NDCG retained (%)": 99.67796428134793,
+    "Mean NDCG difference": -0.00042196574392227985,
+    "Paired t-test NDCG p": 0.08514038374650966,
+    "Posthoc F_model": 0.9732085041254759,
+    "CL-MEE F_model": 0.9719347501123687,
+    "Paired t-test fidelity p": 0.12215402147160949,
+    "CL-MEE units": 1.1822500000000002
+  },
+  "foursquare_table4": [
+    {
+      "Method": "RankOnly",
+      "Recall@5": 0.21495327102803738,
+      "NDCG@5": 0.15652673088954747,
+      "MRR": 0.15809918978621712,
+      "Units": null,
+      "F_model": null,
+      "Rerank_rate": 0.0,
+      "NDCG_retained_%": 100.0
+    },
+    {
+      "Method": "Minimal-posthoc",
+      "Recall@5": 0.21495327102803738,
+      "NDCG@5": 0.15652673088954747,
+      "MRR": 0.15809918978621712,
+      "Units": 1.303466350195322,
+      "F_model": 0.9680660202523174,
+      "Rerank_rate": 0.0,
+      "NDCG_retained_%": 100.0
+    },
+    {
+      "Method": "CL-MEE B=1",
+      "Recall@5": 0.2148543737328784,
+      "NDCG@5": 0.15651958276425948,
+      "MRR": 0.15813545212777544,
+      "Units": 0.9999505513524205,
+      "F_model": 0.9120409257497225,
+      "Rerank_rate": 0.11007268951194185,
+      "NDCG_retained_%": 99.99543328781776
+    },
+    {
+      "Method": "CL-MEE B=2",
+      "Recall@5": 0.21495327102803738,
+      "NDCG@5": 0.1567092311350247,
+      "MRR": 0.15834643302411458,
+      "Units": 1.2702368590219058,
+      "F_model": 0.9662207921477041,
+      "Rerank_rate": 0.012312713247292686,
+      "NDCG_retained_%": 100.11659366067386
+    },
+    {
+      "Method": "CL-MEE B=3",
+      "Recall@5": 0.21495327102803738,
+      "NDCG@5": 0.15652673088954747,
+      "MRR": 0.15809918978621712,
+      "Units": 1.3031202096622658,
+      "F_model": 0.9680159772105842,
+      "Rerank_rate": 0.0,
+      "NDCG_retained_%": 100.0
+    }
+  ],
+  "policy_stats": {
+    "B1": {
+      "mean": -0.0002870257027784255,
+      "ci": [
+        -0.0011604757625086866,
+        0.0005864243569518356
+      ],
+      "t_p": 0.5192013221787154,
+      "wilcoxon_p": 0.23076517964589105,
+      "nonzero_users": 161
+    },
+    "B2": {
+      "mean": 0.0001376403465662959,
+      "ci": [
+        -0.0003205480852065193,
+        0.000595828778339111
+      ],
+      "t_p": 0.55569265574205,
+      "wilcoxon_p": 0.4954339467055269,
+      "nonzero_users": 15
+    }
+  },
+  "pre_truncation_overbudget": {
+    "1": 0.17351530435642584,
+    "2": 0.013796172674677348,
+    "3": 0.001483459427384661
+  },
+  "dataset_sha256": "2f39ce698e5bff6683c74bec30c436cc022c160b0f3d73c5268b55491b2445f9",
+  "versions": {
+    "python": "3.14.7",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1"
+  }
+}

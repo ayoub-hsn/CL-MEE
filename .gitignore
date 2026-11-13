@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+environment_capture/
+verification_results/
+refit_results/
+validation_run/

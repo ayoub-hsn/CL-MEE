@@ -1,0 +1,36 @@
+{
+  "dataset_path_argument": "dataset_TSMC2014_NYC.txt",
+  "dataset_sha256": "2f39ce698e5bff6683c74bec30c436cc022c160b0f3d73c5268b55491b2445f9",
+  "output_files": [
+    "revision_results.json",
+    "foursquare_main_comparison.csv",
+    "foursquare_ablations.csv",
+    "simulation_comparison.csv",
+    "operational_diagnostics.csv",
+    "illustrative_positive_negative_case.csv"
+  ],
+  "script": "run_revision_experiments.py",
+  "environment": {
+    "python": "3.13.15",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0",
+    "python_implementation": "CPython",
+    "platform": "Windows x64 (exact Windows release not captured in the uploaded environment file)",
+    "system": "Windows",
+    "machine": "AMD64"
+  },
+  "weight_source": "fitted on validation sample; checkpoint included for reference reproduction",
+  "weight_checkpoint": "foursquare_model_weights.json",
+  "weight_checkpoint_sha256": "1320fd27d360a4ae96640138b58b2e8d19d1c8cffe18c6282d2c99f6c6f57ef1",
+  "platform": {
+    "system": "Windows",
+    "machine": "AMD64",
+    "python_implementation": "CPython"
+  },
+  "script_sha256": null,
+  "script_hash_note": "The original Windows reference run was generated before script hashing was added; subsequent verification runs record the current runner hash.",
+  "operational_diagnostics_export_note": "Added in the final package as a deterministic flattening of the P1/P2 operational_diagnostics fields in revision_results.json; no experimental values were changed.",
+  "runtime_provenance_note": "Timing fields in the reference JSON are taken from the later author-provided Windows CMD rerun recorded in runtime_reference_windows.json; experiment metrics and CSV tables remain from the supplied deterministic reference metric run."
+}

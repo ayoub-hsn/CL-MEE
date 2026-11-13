@@ -1,0 +1,29 @@
+{
+  "dataset_path_argument": "dataset_TSMC2014_NYC.txt",
+  "dataset_sha256": "2f39ce698e5bff6683c74bec30c436cc022c160b0f3d73c5268b55491b2445f9",
+  "output_files": [
+    "revision_results.json",
+    "foursquare_main_comparison.csv",
+    "foursquare_ablations.csv",
+    "operational_diagnostics.csv",
+    "illustrative_positive_negative_case.csv",
+    "simulation_comparison.csv"
+  ],
+  "script": "run_revision_experiments.py",
+  "script_sha256": "c9a8dd0ce40ea18070da4845a7df29dfef114a7486515186adc3dd04e56e2d97",
+  "weight_source": "stored validation-trained checkpoint",
+  "weight_checkpoint": "foursquare_model_weights.json",
+  "weight_checkpoint_sha256": "1320fd27d360a4ae96640138b58b2e8d19d1c8cffe18c6282d2c99f6c6f57ef1",
+  "environment": {
+    "python": "3.13.15",
+    "python_implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "system": "Windows",
+    "release": "11",
+    "machine": "AMD64",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0"
+  }
+}
