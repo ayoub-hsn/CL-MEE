@@ -1,9 +1,9 @@
 CL-MEE — AICSET'26 CAMERA-READY REVISION PACKAGE
 ================================================
 
-This archive contains the revised Springer/Overleaf manuscript, figures,
+This archive contains the
 reproduction code, the Foursquare NYC dataset, the validation-trained scorer
-checkpoint, tests, reference outputs, verification tools, and reviewer response.
+checkpoint, tests, reference outputs, and verification tools.
 
 IMPORTANT FILES
 ---------------
